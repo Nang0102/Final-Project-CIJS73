@@ -19,10 +19,10 @@ function Login(props) {
                     margin="normal"
                     required
                     fullWidth
-                    id="email"
-                    label="Địa chỉ Email"
-                    name="email"
-                    autoComplete="email"
+                    id="username"
+                    label="Tên người dùng"
+                    name="username"
+                    autoComplete="username"
                     autoFocus
                 />
                 <TextField
