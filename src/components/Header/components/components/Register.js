@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 import FormHelperText from '@mui/material/FormHelperText';
 
 function Register(props) {
-    const { error } = props
+    const { error, processing } = props
 
     return (
         <>
@@ -72,6 +72,7 @@ function Register(props) {
                     fullWidth
                     variant="contained"
                     sx={{ mt: 3, mb: 2 }}
+                    disabled={processing}
                 >
                     ĐĂNG KÝ
                 </Button>
